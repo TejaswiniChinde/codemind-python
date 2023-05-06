@@ -1,3 +1,3 @@
-p=int(input())
-n=int(input())
-print(p*n)
+x=int(input())
+y=int(input())
+print(x*y)
