@@ -14,6 +14,6 @@ for i in range(0,x):
     c=c-f
     d=d-f
     if c+d>=k:
-        print('Win')
+        print("Win")
     else:
         print("Lose")
