@@ -1,9 +1,5 @@
-b,c=map(int,input().split())
-if(b==0 and c%2==0):
-    print("YES")
-elif(b==0 and c%2!=0):
-    print("NO")
-elif((b+2*c)%2==0):
+a,b=map(int,input().split())
+if a%2==0 and (a>0 or b%2==0):
     print("YES")
 else:
     print("NO")
